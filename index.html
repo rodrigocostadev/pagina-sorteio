@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header" >
+        <h1> Esta é a página home.html</h1>
+        <button id="logout">Sair</button>
+    </header>
+
+    <main>
+        <section id="s1">       
+            <h1>Sorteador Personalizado de Números</h1>
+            <h4 id="h4Modificado">Configure a Seleção Aleatória de Números: De [X] até [Y]</h4>
+            <div>
+                <span> De </span>
+                <input id="numberX" type="number" placeholder="Digite o Numero" >
+                <span> A </span>
+                <input id="numberY" type="numer" placeholder="Digite o Numero">
+            </div>
+            <button id="sortearNumero" >Sortear</button>
+            <h2>O Número sorteado é:</h2>
+            <h2 id="numeroSorteado" ></h2>
+        </section>
+    
+        <section id="s2">
+            <h1>Sorteador por lista de Nomes</h1>
+            <h4>Crie uma lista de participantes e sorteie 1 individuo</h4>
+            <input id="inputNames" type="text" placeholder="Digite os Nomes" >
+            <button type="submit" id="addNames" >Adicionar a lista</button>
+            <div>
+                <button id="sortear" >Sortear</button>
+            </div>
+    
+            <div id="lists" >
+                <div>
+                    <h4>Lista de articipantes:</h4>
+                    <ol id="olNames"></ol>
+                </div>
+                <div>
+                    <h4>Lista com Ordem Modificada:</h4>
+                    <ol id="listaEmbaralhada" ></ol>
+                </div>
+            </div>  
+            
+            <h2>O sorteado é:</h2>
+            <h2 id="sorteado" ></h2>
+        </section>
+    </main> 
+
+    <footer id="container" >
+        <p>Criado  e desenvolvido por Rodrigo Costa</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Esse é o home.html </h1>
+    
+    <button id="sairButton">SAIR</button>
+
+
+
+    <button id="sairButton" onclick="sairFunction()" type="submit">SAIR</button>
+
+    <script src="home.js" ></script>
+</body>
+</html> -->
